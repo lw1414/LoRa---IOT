@@ -1175,125 +1175,336 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lora_Symbol_Library:CONUFL001-SMD-T"
+		(symbol "Lora_Symbol_Library:132322"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U.FL1"
-				(at 0 8.8009 0)
+			(property "Reference" "J"
+				(at -3.81 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "~"
-				(at 0 6.2609 0)
+			(property "Value" "132322"
+				(at -3.81 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Lora_Footprint_Library:IPEX-SMD_3P-L2.6-W2.6-LS3.0"
-				(at 0.508 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "132322:AMPHENOL_132322"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/132322_Amphenol_RF.pdf"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C22418213"
+			(property "Description" "Conn RF SMA End Launch Jack for 0.062inch PCB 50 Ohm Round Post Contact | Amphenol RF 132322"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "CONUFL001-SMD-T_1_0"
-				(rectangle
-					(start -2.54 5.08)
-					(end 2.54 -5.08)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/132322_Amphenol_RF.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Amphenol RF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6.35mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "132322"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/132322/Amphenol/view-part/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "132322_0_0"
+				(arc
+					(start -3.175 0.635)
+					(mid -2.5427 0)
+					(end -3.175 -0.635)
 					(stroke
 						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -4.572) (xy -1.27 -5.334)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 10.16 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.572) (xy -0.508 -5.334)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.572) (xy -0.762 -4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.572) (xy 0.254 -5.334)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 5.08 2.54 180)
+				(pin power_in line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "2"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "G1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 5.08 -2.54 180)
+				(pin power_in line
+					(at 5.08 -5.08 90)
 					(length 2.54)
-					(name "2"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "G2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2345,6 +2556,12 @@
 		(uuid "11fd4367-71d7-487c-96c3-08266d9b5cc6")
 	)
 	(junction
+		(at 349.8057 100.6863)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13b8f752-53a0-4661-9977-dd2d1c819e48")
+	)
+	(junction
 		(at 211.4085 80.459)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2393,12 +2610,6 @@
 		(uuid "51086b6f-0b03-40b7-9ad7-ef171da2dbb9")
 	)
 	(junction
-		(at 357.4568 94.5727)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51d163b2-1283-460a-952c-4688d173f31a")
-	)
-	(junction
 		(at 294.4691 59.1261)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2435,6 +2646,12 @@
 		(uuid "690f3655-7d6d-499f-9f40-46fa26a6c8f1")
 	)
 	(junction
+		(at 347.2657 100.6863)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f2a207d-d147-4f8a-872c-f456a9be9319")
+	)
+	(junction
 		(at 150.8832 210.6458)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2445,6 +2662,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ffeace5-df8f-433b-ba77-f270d20655da")
+	)
+	(junction
+		(at 344.7257 100.6863)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80f1246f-ccda-4db1-9515-887d68e5913d")
 	)
 	(junction
 		(at 112.0945 109.5967)
@@ -2559,6 +2782,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffb6457c-2131-4a0a-aef6-052a28bea432")
+	)
+	(wire
+		(pts
+			(xy 342.1857 97.1127) (xy 342.1857 100.6863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bfaed3-7709-41d5-a2bc-a8e7d8acbf02")
 	)
 	(wire
 		(pts
@@ -2682,16 +2915,6 @@
 	)
 	(wire
 		(pts
-			(xy 357.4568 89.4927) (xy 357.4568 94.5727)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b281af-4a88-452d-a633-9b9a53e0ff1b")
-	)
-	(wire
-		(pts
 			(xy 144.8605 109.5721) (xy 128.1711 109.5721)
 		)
 		(stroke
@@ -2729,6 +2952,16 @@
 			(type default)
 		)
 		(uuid "1e89b1c1-18e6-46dc-99b8-8eb57dc2078a")
+	)
+	(wire
+		(pts
+			(xy 347.2657 100.6863) (xy 349.8057 100.6863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2f034d-ee3a-41a2-a646-1c962d32393e")
 	)
 	(wire
 		(pts
@@ -2792,17 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 357.4568 94.5727) (xy 357.4568 99.0194)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ae1961-2bde-48f3-bc7e-ffe3a88aa560")
-	)
-	(wire
-		(pts
-			(xy 334.6757 92.0327) (xy 343.9809 92.0327)
+			(xy 334.6757 92.0327) (xy 349.8057 92.0327)
 		)
 		(stroke
 			(width 0)
@@ -2959,6 +3182,16 @@
 			(type default)
 		)
 		(uuid "4c16c694-a971-40e9-be6c-67bda39dc3fc")
+	)
+	(wire
+		(pts
+			(xy 342.1857 100.6863) (xy 344.7257 100.6863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccec0f7-4fea-4735-bb6d-e0e19962d115")
 	)
 	(wire
 		(pts
@@ -3132,16 +3365,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.1409 94.5727) (xy 357.4568 94.5727)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72e18ee0-87f5-4376-9e17-af83226f51fe")
-	)
-	(wire
-		(pts
 			(xy 144.8605 104.5721) (xy 112.0945 104.5721)
 		)
 		(stroke
@@ -3149,16 +3372,6 @@
 			(type default)
 		)
 		(uuid "7300e118-c273-46e3-acd0-7470db159016")
-	)
-	(wire
-		(pts
-			(xy 354.1409 89.4927) (xy 357.4568 89.4927)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739cdaf3-9d90-4733-b2bc-dbca292832a0")
 	)
 	(wire
 		(pts
@@ -3279,6 +3492,16 @@
 			(type default)
 		)
 		(uuid "8a16b321-e963-4ae2-9c56-a11b6f42c1ca")
+	)
+	(wire
+		(pts
+			(xy 347.2657 97.1127) (xy 347.2657 100.6863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b837724-c5cb-4836-8155-99fb0334b08f")
 	)
 	(wire
 		(pts
@@ -3560,6 +3783,26 @@
 			(type default)
 		)
 		(uuid "bc5e2d02-cd1d-466d-a459-93f8fa94d8f4")
+	)
+	(wire
+		(pts
+			(xy 344.7257 100.6863) (xy 347.2657 100.6863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be21c17c-749a-4471-954c-34919c905670")
+	)
+	(wire
+		(pts
+			(xy 349.8057 97.1127) (xy 349.8057 100.6863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff408aa-d6b1-488a-a565-f32952ae9372")
 	)
 	(wire
 		(pts
@@ -3903,6 +4146,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.7257 97.1127) (xy 344.7257 100.6863)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f050c0b0-43f5-42e4-80c9-aff9ba5d3057")
+	)
+	(wire
+		(pts
 			(xy 143.3365 107.0721) (xy 143.3365 122.2721)
 		)
 		(stroke
@@ -3980,6 +4233,16 @@
 			(type default)
 		)
 		(uuid "fcca6441-f1ab-4e8d-be09-c19a50c1b6cd")
+	)
+	(wire
+		(pts
+			(xy 349.8057 100.6863) (xy 349.8057 101.4739)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf34a88-e33c-4f0c-800f-6a69ae9c1234")
 	)
 	(wire
 		(pts
@@ -5785,6 +6048,156 @@
 		)
 	)
 	(symbol
+		(lib_id "Lora_Symbol_Library:132322")
+		(at 352.3457 92.0327 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55599005-8eed-47b2-81ba-cab3525b7678")
+		(property "Reference" "J4"
+			(at 348.8786 85.5041 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "132322"
+			(at 348.8786 88.0441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Lora_Footprint_Library:AMPHENOL_132322"
+			(at 352.3457 92.0327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/132322_Amphenol_RF.pdf"
+			(at 352.3457 92.0327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn RF SMA End Launch Jack for 0.062inch PCB 50 Ohm Round Post Contact | Amphenol RF 132322"
+			(at 352.3457 92.0327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/132322_Amphenol_RF.pdf"
+			(at 352.3457 92.0327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amphenol RF"
+			(at 352.3457 92.0327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.35mm"
+			(at 352.3457 92.0327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "132322"
+			(at 352.3457 92.0327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 352.3457 92.0327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/132322/Amphenol/view-part/"
+			(at 352.3457 92.0327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 352.3457 92.0327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "G2"
+			(uuid "2549c23c-01ed-4863-bb01-ea8eef4a43ed")
+		)
+		(pin "1"
+			(uuid "8ac76d3f-6f4a-43e3-8514-e023f21366a9")
+		)
+		(pin "G3"
+			(uuid "28d62d22-6f74-4677-855c-def22b4371ee")
+		)
+		(pin "G4"
+			(uuid "72bee9fa-9b07-4873-a560-af837a79aaf8")
+		)
+		(pin "G1"
+			(uuid "8598267e-02e0-438e-a7d6-50af120dda30")
+		)
+		(instances
+			(project ""
+				(path "/1fed152f-5923-41f8-90b5-fd5ef7e4499e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 194.8225 66.3461 180)
 		(unit 1)
@@ -5857,86 +6270,6 @@
 			(project "SX1262_LoRa_Module"
 				(path "/1fed152f-5923-41f8-90b5-fd5ef7e4499e"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Lora_Symbol_Library:CONUFL001-SMD-T")
-		(at 349.0609 92.0327 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d9681ca-1b32-4c23-b8da-79f67738905e")
-		(property "Reference" "U.FL1"
-			(at 349.0609 83.2318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 349.0609 85.7718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Lora_Footprint_Library:SMA_end_launch_1.0mm_9.52mm"
-			(at 349.5689 99.3987 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.0609 92.0327 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 349.0609 92.0327 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22418213"
-			(at 349.0609 92.0327 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbe92481-2daf-478c-9e8e-301491fddd52")
-		)
-		(pin "2"
-			(uuid "baf84fc5-e8d8-4091-88c5-35fd3adda1ee")
-		)
-		(pin "2"
-			(uuid "2b48c2ac-49e3-4a1d-86a6-6c084d8d861a")
-		)
-		(instances
-			(project ""
-				(path "/1fed152f-5923-41f8-90b5-fd5ef7e4499e"
-					(reference "U.FL1")
 					(unit 1)
 				)
 			)
@@ -7262,7 +7595,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 357.4568 99.0194 0)
+		(at 349.8057 101.4739 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7271,7 +7604,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d9b6da0-6f3c-4a8d-9655-59dcacff7972")
 		(property "Reference" "#PWR021"
-			(at 357.4568 105.3694 0)
+			(at 349.8057 107.8239 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 357.4568 104.0839 0)
+			(at 349.8057 106.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 357.4568 99.0194 0)
+			(at 349.8057 101.4739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +7630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 357.4568 99.0194 0)
+			(at 349.8057 101.4739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,7 +7639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 357.4568 99.0194 0)
+			(at 349.8057 101.4739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
